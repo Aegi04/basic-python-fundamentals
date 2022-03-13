@@ -20,18 +20,15 @@ print(f'egg count {egg_count} eggs')
 milk_bottle_count = 10
 print(f'milk bottle count {milk_bottle_count} bottles')
 
-if milk_bottle_count > 0 :
+if milk_bottle_count > 0:
     print('Joe brings enough money')
     print('Joe bought a bottle of milk')
-else :
+else:
     print("Joe didn't buy a bottle of milk")
 
-
-if egg_count == 0 :
-        print("Joe didn't buy the eggs")
+if egg_count == 0:
+    print("Joe didn't buy the eggs")
 else:
-        print('and Joe bought 6 eggs too')
+    print('and Joe bought 6 eggs too')
 
 print("and Joe handed over the groceries to his mother")
-
-
